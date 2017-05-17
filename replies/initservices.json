@@ -1,0 +1,265 @@
+{
+  "initServices" : {
+    "authentication" : {
+      "deviceSecret" : "012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789==",
+      "sessionID" : "012345678901234567890123456=",
+      "deviceUniqueID" : "01234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567"
+    },
+    "services" : {
+      "itemList" : [ {
+        "name" : "mycontent_service",
+        "switch" : "off"
+      }, {
+        "name" : "wedge_service",
+        "switch" : "off"
+      }, {
+        "name" : "membership_service",
+        "switch" : "off"
+      }, {
+        "name" : "channel_plus",
+        "switch" : "off"
+      }, {
+        "name" : "livemenu_recommendation",
+        "switch" : "off"
+      }, {
+        "name" : "push_agent2",
+        "switch" : "off"
+      } ],
+      "needCheckHardwareFeature" : "N",
+      "loggingStatus" : {
+        "logUnit" : [ {
+          "name" : "normal_log",
+          "switch" : "on",
+          "requestInterval" : "600",
+          "retryIntervalOnError" : "0",
+          "retryIntervalOnFail" : "0",
+          "retryCount" : "0"
+        } ],
+        "checkInterval" : "3600"
+      },
+      "noticeList" : null,
+      "country" : {
+        "code" : "CA",
+        "threecode" : "CAN"
+      },
+      "premiumAppList" : {
+        "appCount" : 7,
+        "appList" : [ {
+          "id" : "netflix",
+          "bPremium" : true,
+          "name" : "Netflix",
+          "categoryId" : "003",
+          "categoryName" : "Entertainment",
+          "currencyCode" : "CAD",
+          "price" : 0.0,
+          "displayPrice" : "C$0.00",
+          "evaluationAverage" : 7.6,
+          "ageType" : "0",
+          "iconColor" : "#ffffff",
+          "iconURL" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150421/21790820472215287LARGE_APP_ICON_130x130_webos.png",
+          "stubAppVersion" : "0.0.4"
+        }, {
+          "id" : "tkc",
+          "bPremium" : true,
+          "name" : "The Karaoke Channel",
+          "categoryId" : "003",
+          "categoryName" : "Entertainment",
+          "currencyCode" : "CAD",
+          "price" : 0.0,
+          "displayPrice" : "C$0.00",
+          "evaluationAverage" : 5.95,
+          "ageType" : "0",
+          "iconColor" : "#FFFFFF",
+          "iconURL" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20150430/2_130x130_webos.png",
+          "stubAppVersion" : "0.0.2"
+        }, {
+          "id" : "amazon.global",
+          "bPremium" : true,
+          "name" : "Amazon Prime Video",
+          "categoryId" : "003",
+          "categoryName" : "Entertainment",
+          "currencyCode" : "CAD",
+          "price" : 0.0,
+          "displayPrice" : "C$0.00",
+          "evaluationAverage" : 7.33,
+          "ageType" : "0",
+          "iconColor" : "#ffffff",
+          "iconURL" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20161215/16895141.png",
+          "stubAppVersion" : "0.0.3"
+        }, {
+          "id" : "cineplexstore201",
+          "bPremium" : true,
+          "name" : "Cineplex Store",
+          "categoryId" : "003",
+          "categoryName" : "Entertainment",
+          "currencyCode" : "CAD",
+          "price" : 0.0,
+          "displayPrice" : "C$0.00",
+          "evaluationAverage" : 0.0,
+          "ageType" : "0",
+          "iconColor" : "#FFFFFF",
+          "iconURL" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20151215/9_130x130_webos.png",
+          "stubAppVersion" : "0.0.7"
+        }, {
+          "id" : "anyplace.tv",
+          "bPremium" : true,
+          "name" : "Rogers Anyplace TV",
+          "categoryId" : "003",
+          "categoryName" : "Entertainment",
+          "currencyCode" : "CAD",
+          "price" : 0.0,
+          "displayPrice" : "C$0.00",
+          "evaluationAverage" : 5.2,
+          "ageType" : "0",
+          "iconColor" : "#DA291C",
+          "iconURL" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20161216/16895622.png",
+          "stubAppVersion" : "0.0.3"
+        }, {
+          "id" : "googleplaymovieswebos",
+          "bPremium" : true,
+          "name" : "Google Play Movies & TV",
+          "categoryId" : "003",
+          "categoryName" : "Entertainment",
+          "currencyCode" : "CAD",
+          "price" : 0.0,
+          "displayPrice" : "C$0.00",
+          "evaluationAverage" : 0.0,
+          "ageType" : "12",
+          "iconColor" : "#FFFFFF",
+          "iconURL" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20170118/16907045.png",
+          "stubAppVersion" : "0.0.18"
+        }, {
+          "id" : "crackle",
+          "bPremium" : true,
+          "name" : "Crackle",
+          "categoryId" : "003",
+          "categoryName" : "Entertainment",
+          "currencyCode" : "CAD",
+          "price" : 0.0,
+          "displayPrice" : "C$0.00",
+          "evaluationAverage" : 5.96,
+          "ageType" : "16",
+          "iconColor" : "#000000",
+          "iconURL" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=APP_STORE&func_code=APP_ICON&file_path=/appstore/app/icon/20151111/40006573143393461crackle_130x130_130x130_webos.png",
+          "stubAppVersion" : "0.0.5"
+        } ]
+      },
+      "blockedAppList" : {
+        "appCount" : 0
+      },
+      "eulaMappingList" : {
+        "maxEulaMappingGroupId" : "GR00000059",
+        "eulaInfo" : [ {
+          "additionalSelectAll" : [ "S_ADA" ],
+          "eulaGroupName" : "firstUse",
+          "generalSelectAll" : [ "S_PRA" ],
+          "overview" : [ "S_DSC" ],
+          "settingKey" : "firstUseAllowed"
+        }, {
+          "eulaGroupName" : "generalTerms",
+          "mandatory" : [ "S_SVC", "S_PRG" ],
+          "settingKey" : "generalTermsAllowed"
+        }, {
+          "eulaGroupName" : "additionalData",
+          "mandatory" : [ "S_SVC", "S_PRG", "S_ADG" ],
+          "settingKey" : "additionalDataAllowed"
+        }, {
+          "eulaGroupName" : "customAd",
+          "mandatory" : [ "S_SVC", "S_PRG", "S_TAG" ],
+          "settingKey" : "customAdAllowed"
+        }, {
+          "eulaGroupName" : "voice",
+          "mandatory" : [ "S_SVC", "S_PRG", "S_VNG" ],
+          "settingKey" : "voiceAllowed"
+        }, {
+          "eulaGroupName" : "all",
+          "mandatory" : [ "S_SVC", "S_PRG", "S_ADG", "S_VNG", "S_TAG" ],
+          "settingKey" : "allAllowed"
+        } ]
+      },
+      "eulaList" : {
+        "eulas" : [ {
+          "agreementNoticeFlag" : "N",
+          "eulaFileUrl" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MEMBERSHIP&func_code=TERMS&file_path=/terms/terms_20151113071405365_en-ca.html",
+          "eulaManagementTypeCode" : "S_ADA",
+          "eulaManagementTypeName" : "Select All<br>Tout sélectionner ",
+          "eulaMandatoryFlag" : "A",
+          "eulaVersionId" : "20151106073_CA",
+          "requiredEulaID" : "00000000000"
+        }, {
+          "agreementNoticeFlag" : "N",
+          "eulaFileUrl" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MEMBERSHIP&func_code=TERMS&file_path=/terms/terms_20151112115018683_en-ca.html",
+          "eulaManagementTypeCode" : "S_ADG",
+          "eulaManagementTypeName" : "Viewing Information<br>Renseignements de visionnement",
+          "eulaMandatoryFlag" : "M",
+          "eulaVersionId" : "20151112451_CA",
+          "requiredEulaID" : "00000000000"
+        }, {
+          "agreementNoticeFlag" : "N",
+          "eulaFileUrl" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MEMBERSHIP&func_code=TERMS&file_path=/terms/terms_20151111073411963_en-ca.html",
+          "eulaManagementTypeCode" : "S_DSC",
+          "eulaManagementTypeName" : "Overview",
+          "eulaMandatoryFlag" : "V",
+          "eulaVersionId" : "20151111213_CA",
+          "requiredEulaID" : "00000000000"
+        }, {
+          "agreementNoticeFlag" : "N",
+          "eulaFileUrl" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MEMBERSHIP&func_code=TERMS&file_path=/terms/terms_20151111054412048_en-ca.html",
+          "eulaManagementTypeCode" : "S_LGN",
+          "eulaManagementTypeName" : "Legal Notice",
+          "eulaMandatoryFlag" : "L",
+          "eulaVersionId" : "20151111154_CA",
+          "requiredEulaID" : "00000000000"
+        }, {
+          "agreementNoticeFlag" : "N",
+          "eulaFileUrl" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MEMBERSHIP&func_code=TERMS&file_path=/terms/terms_20151112004446133_en-ca.html",
+          "eulaManagementTypeCode" : "S_PRA",
+          "eulaManagementTypeName" : "Select All<br>Tout sélectionner ",
+          "eulaMandatoryFlag" : "G",
+          "eulaVersionId" : "20151112044_CA",
+          "requiredEulaID" : "00000000000"
+        }, {
+          "agreementNoticeFlag" : "N",
+          "eulaFileUrl" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MEMBERSHIP&func_code=TERMS&file_path=/terms/terms_20151112093650709_en-ca.html",
+          "eulaManagementTypeCode" : "S_PRG",
+          "eulaManagementTypeName" : "Privacy Policy<br>Politique de confidentialité",
+          "eulaMandatoryFlag" : "M",
+          "eulaVersionId" : "20151112285_CA",
+          "requiredEulaID" : "00000000000"
+        }, {
+          "agreementNoticeFlag" : "N",
+          "eulaFileUrl" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MEMBERSHIP&func_code=TERMS&file_path=/terms/terms_20151111081002283_en-ca.html",
+          "eulaManagementTypeCode" : "S_SVC",
+          "eulaManagementTypeName" : "Terms of Use<br>Conditions d'utilisation",
+          "eulaMandatoryFlag" : "M",
+          "eulaVersionId" : "20151111233_CA",
+          "requiredEulaID" : "00000000000"
+        }, {
+          "agreementNoticeFlag" : "N",
+          "eulaFileUrl" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MEMBERSHIP&func_code=TERMS&file_path=/terms/terms_20151113072624700_en-ca.html",
+          "eulaManagementTypeCode" : "S_TAG",
+          "eulaManagementTypeName" : "Personalised Advertising<br>Publicité personnalisée",
+          "eulaMandatoryFlag" : "M",
+          "eulaVersionId" : "20151113179_CA",
+          "requiredEulaID" : "00000000000"
+        }, {
+          "agreementNoticeFlag" : "N",
+          "eulaFileUrl" : "http://ngfts.lge.com/fts/gftsDownload.lge?biz_code=MEMBERSHIP&func_code=TERMS&file_path=/terms/terms_20151112075749008_en-ca.html",
+          "eulaManagementTypeCode" : "S_VNG",
+          "eulaManagementTypeName" : "Voice Information<br>Renseignements vocaux",
+          "eulaMandatoryFlag" : "M",
+          "eulaVersionId" : "20151112254_CA",
+          "requiredEulaID" : "00000000000"
+        } ]
+      }
+    },
+    "deviceFeatureResult" : {
+      "serverResult" : "Y",
+      "fck" : 116,
+      "bSellPaidApp" : "N",
+      "bAdultApp" : "N",
+      "bRecommended" : "Y",
+      "rcmdCategoryCount" : 0
+    }
+  }
+}
