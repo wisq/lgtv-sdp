@@ -62,7 +62,7 @@ PowerDNS listens on my LAN address (`192.168.68.1`) and primary loopback address
   * `lgappstv.com=127.0.0.2`
 * Contents of `/etc/sv/tinydns/env/IP`: `127.0.0.2`
 * In `/etc/sv/tinydns/root/data`:
-  * `+*.lgtvsdp.com:192.168.68.1
+  * `+*.lgtvsdp.com:192.168.68.1`
   * `+*.lge.com:192.168.68.1`
   * `+*.lgsmartad.com:192.168.68.1`
   * `+*.lgappstv.com:192.168.68.1`
