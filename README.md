@@ -73,7 +73,7 @@ The net effect is that all DNS for any host in any LG-related domain will point 
 
 I use `nginx` as my web server.  The setup is pretty simple:
 
-```
+```nginx
 server {
         listen 80;
         listen 443 ssl;
